@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PageObjectExampleTest" verbose="5" >
+		<test name="Tests">
+		<classes>
+		    <class name="pageobject.tests.VerifyFavouritesOption"/>
+			<class name="pageobject.tests.CheckPotatoesCount"/>
+			<class name="pageobject.tests.ValidationOfAddRecipeFormFields"/>
+		</classes>
+	</test>	  
+</suite>
